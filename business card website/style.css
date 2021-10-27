@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap");
+html {
+   height: 100%;
+   display: block;
+}
+header {
+   display: block;
+   background-color: rgb(210, 222, 245);
+   margin: 0 auto -22px;
+   width: 960px;
+}
+body {
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   min-height: 100%;
+}
+.header {
+   padding: 20px;
+   text-align: center;
+   border-bottom: 0.3mm solid black;
+}
+
+.nav-link {
+   margin: 0px 10px;
+   font-family: "Zen Antique Soft";
+}
+.link {
+   color: #003124;
+   transition: color 1.5s;
+   transition-property: color;
+   transition-duration: 1.5s;
+   transition-timing-function: ease;
+   transition-delay: 0s;
+}
+a:hover {
+   color: #8526f3;
+}
+main {
+   margin: 0 auto;
+   width: 1000px;
+   display: flex;
+   flex-grow: 1;
+   padding-top: 50px;
+   background-color: #dbdac9;
+}
+.main {
+   margin: auto;
+   width: 1000px;
+}
+.title {
+   color: #003124;
+   text-align: center;
+}
+h1 {
+   display: block;
+   font-size: 2em;
+   font-weight: 300;
+   padding: 20px 0px 0px 0px;
+   font-family: "Zen Antique Soft";
+}
+div {
+   display: block;
+}
+.image-wrapper {
+   margin: 30px 20px 20px 20px;
+   text-align: center;
+}
+.img {
+   border: 1px solid wheat;
+   width: 300px;
+   height: 400px;
+}
+.subtitle {
+   border-left: 3.5px solid #003124;
+   padding-left: 10px;
+   color: #684402;
+}
+h2 {
+   display: block;
+   font-size: 1.5em;
+   font-weight: bold;
+   margin: 0.83em 0px;
+   font-family: "Zen Antique Soft";
+}
+p {
+   display: block;
+   margin: 1em 0px;
+   font-family: Roboto;
+}
+ul {
+   display: block;
+   list-style-type: square;
+   margin: 1em 0px;
+   padding-left: 40px;
+   font-family: Roboto;
+}
+footer {
+   display: block;
+   background-color: rgb(210, 222, 245);
+   margin: 0 auto;
+   width: 960px;
+}
+.footer {
+   padding: 20px;
+   text-align: center;
+   border-top: 0.3mm solid black;
+}
+.block-title {
+   border-left: none;
+}
+.email {
+   color: crimson;
+}
+.image__email {
+   margin: auto 10px -10px auto;
+}
+section {
+   display: block;
+}
+.main__section {
+   flex-grow: 1;
+   padding-left: 50px;
+}
+aside {
+   display: block;
+}
+.aside {
+   width: 300px;
+   flex: 0;
+}
